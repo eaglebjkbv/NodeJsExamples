@@ -1,5 +1,5 @@
 # Node JS Examples
 
-Node JS examples from the Scratch.<\br> 
+Node JS examples from the Scratch .  
 *Sıfırdan Node Js Programlama örnekleri*
 
