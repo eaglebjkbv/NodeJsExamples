@@ -1,7 +1,6 @@
 var http=require('http');
 
 
-
 var server=http.createServer((req,res)=>{
     res.statusCode=200;
     res.setHeader('Content-Type','Text/html');
