@@ -1,0 +1,15 @@
+
+<% include partials/header.ejs %>
+<script>
+    document.getElementById("title").innerHTML = "Ana Sayfa";
+</script>
+
+    <h1>Merhaba Gönderdiğiniz Cumle : ( <%=cumle.cumle %> )</h1>
+    <ul>
+        <% kisiler.forEach(function(kisi) { %>
+            <li><%= kisi.ad %> - <%= kisi.soyad %></li>
+        <% }); %>
+    </ul>
+    <% include partials/footer.ejs %>
+
+
